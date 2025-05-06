@@ -951,7 +951,7 @@ with tab2:
         st.markdown("""
         # Welcome to our Music Genre Classification Project!
 
-        We are a team of 4 developers exploring the intersection of music and machine learning. Our goal is to harness the power of deep learning—specifically Convolutional Neural Networks (CNNs)—to accurately classify music into different genres based on its audio features.
+        We are a team of passionate researchers and developers exploring the intersection of music and machine learning. Our goal is to harness the power of deep learning—specifically Convolutional Neural Networks (CNNs)—to accurately classify music into different genres based on its audio features.
 
         ## What We Do
         Our system analyzes music tracks by converting them into spectrograms—visual representations of audio signals—and then applies CNNs to detect patterns and features unique to each genre. By training on a diverse dataset of music from multiple genres, our model learns to recognize genre-specific characteristics and provides reliable predictions.
@@ -961,8 +961,6 @@ with tab2:
         - Music recommendation systems  
         - Audio content management  
         - Digital music libraries  
-
-        Our project provides a scalable, intelligent solution for genre identification.
 
         ## Our Mission
         - Improve the accuracy and efficiency of genre classification models  
@@ -983,18 +981,17 @@ with tab2:
         - Sample rate: 22 050 Hz, stereo WAV format
 
         ### Why GTZAN?
-        - **Diversity**: Covers a broad spectrum of popular music styles  
-        - **Standard benchmark**: Enables comparison across different algorithms  
-        - **Well‐studied**: Numerous research papers use GTZAN, making results easily reproducible
+        - **Diversity**: Broad spectrum of popular music styles  
+        - **Standard benchmark**: Enables fair comparisons  
+        - **Well-studied**: Results are easily reproducible  
 
         ### Limitations
-        - **Imbalance in recording quality**  
-        - **Occasional mislabeled examples**  
-        - **Single‐genre assumption**—real‐world tracks can be mixed
+        - Imbalance in recording quality  
+        - Occasional mislabeled examples  
+        - Single-genre assumption—real-world tracks can be mixed
 
         Despite its quirks, GTZAN remains a cornerstone for prototyping and evaluating music genre classifiers.
         """)
-
 # Add footer
 st.markdown("""
 <div style="text-align: center; margin-top: 40px; padding: 20px; opacity: 0.7;">
