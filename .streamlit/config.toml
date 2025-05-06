@@ -1,0 +1,5 @@
+[server]
+watchdogMode = "none"
+
+[logger]
+level = "warning"
