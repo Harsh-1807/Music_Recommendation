@@ -1,1 +1,10 @@
-pip install flask tensorflow librosa matplotlib pillow
+flask
+tensorflow
+librosa
+matplotlib
+pillow
+streamlit
+torch
+torchaudio
+transformers
+numpy
