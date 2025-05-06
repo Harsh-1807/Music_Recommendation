@@ -5,6 +5,8 @@ from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2FeatureExtra
 import numpy as np
 import time
 import os
+import os
+os.environ["STREAMLIT_WATCHDOG_MODE"] = "none"
 
 # Set page configuration
 st.set_page_config(
