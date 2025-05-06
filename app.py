@@ -1,6 +1,7 @@
 import os
 #–– Disable Streamlit’s hot-reloader (avoids torch.classes crash) ––
 os.environ["STREAMLIT_WATCHDOG_MODE"] = "none"
+os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
 #–– Suppress noisy CUDA/cuDNN logs ––
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import streamlit as st
