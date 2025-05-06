@@ -1,13 +1,15 @@
+import os
+#–– Disable Streamlit’s hot-reloader (avoids torch.classes crash) ––
+os.environ["STREAMLIT_WATCHDOG_MODE"] = "none"
+#–– Suppress noisy CUDA/cuDNN logs ––
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import streamlit as st
 import torch
 import torchaudio
 from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2FeatureExtractor
 import numpy as np
 import time
-import os
 
-os.environ["STREAMLIT_WATCHDOG_MODE"] = "none"
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 # Set page configuration
 st.set_page_config(
     page_title="Music Genre Studio", 
