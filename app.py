@@ -10,6 +10,7 @@ import torchaudio
 from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2FeatureExtractor
 import numpy as np
 import time
+torch.classes.__path__ = []
 
 # Set page configuration
 st.set_page_config(
